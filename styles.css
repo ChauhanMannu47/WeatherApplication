@@ -563,6 +563,8 @@ input:focus{
    #logo{
        width:20%;
        display: flex;
+       position: relative;
+       left:20px;
        /* border: 1px solid white; */
        justify-content: end;
        box-sizing: border-box;
@@ -574,6 +576,7 @@ input:focus{
        color: white;
        text-align: right;
        /* font-style: italic; */
+       font-size:15px;
        color: white;
        text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
                     0px -5px 35px rgba(255,255,255,0.3);
@@ -601,6 +604,9 @@ input:focus{
        border-radius: 50px;
        /* margin-right: 40px; */
    }
+   #search2{
+       display:none;
+     }
    #search-bar1{
        width: 23%;
        box-sizing: border-box;
