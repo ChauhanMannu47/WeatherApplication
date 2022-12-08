@@ -531,7 +531,7 @@ input:focus{
 #news .newshead{
   color:black; margin-top:0px; margin-bottom:0px; margin-left:250px;
 }
-@media only screen and (min-width: 300px ) and (max-width:700px)
+@media only screen and (min-width: 300px ) and (max-width:900px)
  {
    @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
 
