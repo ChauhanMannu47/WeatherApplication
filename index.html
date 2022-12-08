@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,12 +8,10 @@
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/11e71d58fc.js" crossorigin="anonymous"></script>
 </head>
-
 <body id="body">
     <div id="nav">
         <div id="search-bar">
-            <input id="search" type="text" name="search" placeholder="Search for location" onkeyup="getWeatherdat()"
-                onclick="getWeatherdat()" list="CityList" autocomplete="on">
+            <input id="search" type="text" name="search" placeholder="Search for location" onkeyup="getWeatherdat()" onclick="getWeatherdat()" list="CityList" autocomplete="on">
             <datalist id="CityList">
                 <option value="AGRA"></option>
                 <option value="ADELEID"></option>
@@ -58,24 +55,20 @@
         <div id="popular">
             <div class="city1">
                 <i class="fa-solid fa-location-pin"> </i>
-                <p>Malegaon : </p>
+                <p class="city3">Malegaon : </p>
                 <p class="ptemp"><img src="http://openweathermap.org/img/wn/01d@4x.png" alt=""> 39°C</p>
-                <p class="sunrise1">Sunrise:<img
-                        src="https://cdn4.iconfinder.com/data/icons/iconsland-weather/PNG/256x256/Sunrise.png" alt=""
-                        id="sun"> 6.03 am</p>
-                <p class="sunset1">Sunset:<img
-                        src="https://cdn.iconscout.com/icon/premium/png-256-thumb/sunset-4242324-3520638.png" alt=""
-                        id="sun"> 18.37 pm</p>
+                <p class="sunrise1" >Sunrise:<img src="https://cdn4.iconfinder.com/data/icons/iconsland-weather/PNG/256x256/Sunrise.png" alt="" id="sun"> 6.03 am</p>
+                <p class="sunset1">Sunset:<img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/sunset-4242324-3520638.png" alt="" id="sun"> 18.37 pm</p>
             </div>
         </div>
         <div class="hourly">
             <button class="button" id="btn"><a href="Hourly1.html " target="_blank">Hourly</a></button>
         </div>
         <div class="hourly">
-            <button class="button" id="btn"><a href="radar.html " target="_blank">Radar</a></button>
+            <button class="button radar" id="btn"><a href="radar.html " target="_blank">Radar</a></button>
         </div>
         <div id="logo">
-            <h1>SkySensor</h1>
+            <h1 class="phoneheading">SkySensor</h1>
         </div>
     </div>
     <div id="geoLocation">
@@ -124,9 +117,9 @@
                         <p class="current-dew">6.03 AM</p>
                     </div>
                     <div class="sunset">
-                        <p>Sunset</p>
-                        <p class="air-quality">06.37 PM</p>
-                    </div>
+                    <p>Sunset</p>
+                    <p class="air-quality">06.37 PM</p>
+                </div>
                 </div>
             </div>
 
@@ -134,9 +127,7 @@
         <div id="map">
             <div class="mapouter">
                 <div class="gmap_canvas">
-                    <iframe width="100%" height="320px" id="gmap_canvas"
-                        src="https://maps.google.com/maps?q=&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
-                        scrolling="no" marginheight="0" marginwidth="0">
+                    <iframe width="100%" height="320px" id="gmap_canvas" src="https://maps.google.com/maps?q=&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
                     </iframe>
                 </div>
             </div>
@@ -249,10 +240,7 @@
             </div>
         </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
-        integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
-
 </html>
 <script src="weather.js"></script>
