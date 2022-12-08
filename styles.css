@@ -594,7 +594,7 @@ input:focus{
    }
    #search-bar{
        /* overflow: hidden; */
-       width:70%;
+       width:30%;
        box-sizing: border-box;
        display: flex;
        align-items: center;
